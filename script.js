@@ -1,14 +1,3 @@
-// import {
-//   allergyScores,
-//   Score,
-//   getFullColorVal,
-//   randomGenerator,
-//   getYear,
-//   luckyNumber,
-//   WordCounter,
-// } from "src/Utils/exercism.js";
-// import { getElement, displayResults, valtoString } from "src/Utils/utils";
-// import { colorDuoAnswer, spaceAgeInput } from "/main";
 import {
   allergyScores,
   Score,

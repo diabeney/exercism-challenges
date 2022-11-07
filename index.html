@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Exercism Challenges</title>
+  </head>
+  <body>
+    <div class="modal grid-cen"></div>
+    <div class="root center">
+      <div class="hero">
+        <div class="btn btn-menu grid-cen">
+          <div data-rotate="false" class="bar-top"></div>
+          <div data-rotate="false" class="bar-cen"></div>
+          <div data-rotate="false" class="bar-bot"></div>
+        </div>
+        <section class="hero-section">
+          <nav data-show="false">
+            <ul>
+              <li><a>Contribute</a></li>
+              <li><a>About</a></li>
+              <li><a>GitHub</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </nav>
+          <section class="heading flex flex-cen">
+            <h1>
+              Building UI for some
+              <span class="underline"
+                ><a
+                  href="https://exercism.org/tracks/javascript"
+                  target="_blank"
+                  >Exercism</a
+                ></span
+              >
+              JavaScript challenges.
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio impedit laborum quisquam earum commodi soluta sit
+              nesciunt. Magni, aliquam!
+            </p>
+          </section>
+        </section>
+      </div>
+      <div class="projects-container">
+        <section class="container">
+          <article class="challenge center">
+            <span class="counter center flex flex-cen"><h1>01</h1></span>
+            <span class="challenge-name"> <h1>Allergies</h1></span>
+            <article class="description">
+              <p>
+                Given a person's allergy score, determine whether or not they're
+                allergic to a given item, and their full list of allergies.
+              </p>
+            </article>
+          </article>
+          <article class="project">
+            <form id="allergy-form">
+              <input
+                type="text"
+                placeholder="Enter allergy score"
+                id="allergy-score"
+              />
+              <input type="submit" value="Check Allergies" />
+            </form>
+            <section class="output"></section>
+          </article>
+        </section>
+        <section class="container">
+          <article class="challenge center">
+            <span class="counter center flex flex-cen"><h1>02</h1></span>
+            <span class="challenge-name"> <h1>Scrabble Score</h1></span>
+            <article class="description">
+              <p>Given a word, compute the Scrabble score for that word.</p>
+            </article>
+          </article>
+          <article class="project">
+            <form id="scrabble-form">
+              <input
+                type="text"
+                placeholder="Enter a word"
+                id="scrabble-word"
+              />
+              <input type="submit" />
+            </form>
+          </article>
+        </section>
+        <section class="container">
+          <article class="challenge center">
+            <span class="counter center flex flex-cen"><h1>03</h1></span>
+            <span class="challenge-name"> <h1>Resistor Color Duo</h1></span>
+            <article class="description">
+              <p>
+                The program will take two color names as input and output a two
+                digit number, even if the input is more than two colors!
+              </p>
+            </article>
+          </article>
+          <article class="project">
+            <form id="resistor-form">
+              <select name="" id="resistor-select"></select>
+              <input type="submit" />
+            </form>
+          </article>
+        </section>
+        <section class="container">
+          <article class="challenge center">
+            <span class="counter center flex flex-cen"><h1>04</h1></span>
+            <span class="challenge-name">
+              <h1>Random Numbers Generator</h1></span
+            >
+            <article class="description">
+              <p>Enter the number of randomly generated numbers you want</p>
+            </article>
+          </article>
+          <article class="project">
+            <form id="random-form">
+              <input type="text" id="random-generator" />
+              <input type="submit" />
+            </form>
+          </article>
+        </section>
+        <section class="container">
+          <article class="challenge center">
+            <span class="counter center flex flex-cen"><h1>05</h1></span>
+            <span class="challenge-name"> <h1>Space Age</h1></span>
+            <article class="description">
+              <p>
+                Select a planet and enter an age in seconds to get the actual
+                age on that planet.
+              </p>
+            </article>
+          </article>
+          <article class="project">
+            <form id="space-form">
+              <select id="planet-select"></select>
+              <input
+                type="text"
+                placeholder="Enter age in seconds"
+                id="scrabble-word"
+              />
+              <input type="submit" />
+            </form>
+          </article>
+        </section>
+        <section class="container">
+          <article class="challenge center">
+            <span class="counter center flex flex-cen"><h1>06</h1></span>
+            <span class="challenge-name"> <h1>Lucky Number</h1></span>
+            <article class="description">
+              <p>
+                Given a number, determine whether the number is a palindrone.
+              </p>
+            </article>
+          </article>
+          <article class="project">
+            <form id="lucky-number-form">
+              <input
+                type="text"
+                placeholder="Enter a number"
+                id="lucky-number-input"
+              />
+              <input type="submit" value="Check Allergies" />
+            </form>
+          </article>
+        </section>
+        <section class="container">
+          <article class="challenge center">
+            <span class="counter center flex flex-cen"><h1>07</h1></span>
+            <span class="challenge-name"> <h1>Word Count</h1></span>
+            <article class="description">
+              <p>Given a word. Return the number of occurrences of each word</p>
+            </article>
+          </article>
+          <article class="project">
+            <form id="word-count-form">
+              <input
+                type="text"
+                placeholder="Enter a word"
+                id="word-count-input"
+              />
+              <input type="submit" value="Check Allergies" />
+            </form>
+          </article>
+        </section>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>

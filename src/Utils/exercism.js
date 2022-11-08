@@ -121,7 +121,7 @@ function twoSum(firstArr, secondArr) {
 
 export function luckyNumber(num) {
   let result = num == [...num.toString()].reverse().join("");
-  return result ? `${num} is a palindrone!!` : `${num} is not a palindrone.`;
+  return result ? `${num} is a palindrome!!` : `${num} is not a palindrome.`;
 }
 
 /** <---------------------- Word counter -------------------> */
